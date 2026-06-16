@@ -1,1 +1,31 @@
 Here is where the JS is stored for interactive parts of your site. You shouldn't worry about adding anything. It's for the bootstrap you use.
+/* Style 1: Setting a custom background color and font family for the whole page */
+body {
+    background-color: #f4f7f6; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Style 2: Styling the header div box */
+.header-section {
+    background-color: #2c3e50;
+    color: #ffffff; /* Font color requirement */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style 3: Adding spacing to the content div box */
+.content-section {
+    padding: 30px;
+    background-color: #ffffff;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+}
+
+/* Style 4: Styling the footer div box */
+.footer-section {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+    color: #7f8c8d;
+}
